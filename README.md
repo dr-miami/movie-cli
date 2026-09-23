@@ -13,6 +13,7 @@ A simple command‑line tool to search for movies and TV shows on 67movies.net a
 
 - Python 3.7+
 - A free [TMDB API key](https://www.themoviedb.org/signup)
+*(api key is required for the program to find movies)*
 
 ## Installation
 

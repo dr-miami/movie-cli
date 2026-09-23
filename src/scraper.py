@@ -7,6 +7,12 @@ from dotenv import load_dotenv
 load_dotenv()
 
 API_KEY = os.getenv("TMDB_API_KEY")
+if not API_KEY:
+    API_KEY = (
+        "TMBD_API_KEY was not found" 
+        "Make it an env variable typing: export TMDB_API_KEY=api"
+    )
+
 BASE_URL = "https://67movies.net"
 TMDB_API = "https://api.themoviedb.org/3"
 TMDB_IMG = "https://image.tmdb.org/t/p/w200"
